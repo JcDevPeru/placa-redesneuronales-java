@@ -199,32 +199,35 @@ String placa ="";
             // heuristica para saber si el patron es coherente
             switch (neurona_activada) {
                 case 0:
-                    letra="A";
-                    //System.out.println("La letra es: ");
-                    //JOptionPane.showMessageDialog(null, "veo la A");
+                    letra="0";
                     break;
                     
                 case 1:
-                    letra="E";
-                    //System.out.println("La letra es E");
-                    //JOptionPane.showMessageDialog(null, "veo la E");
+                    letra="1";
                     break;
                 case 2:
-                    letra="I";
-                    //System.out.println("La letra es I");
-                    //JOptionPane.showMessageDialog(null, "veo la I");
-                    break;
+                    letra="2";
                 case 3:
-                    letra="O";
-                    //System.out.println("La letra es O");
-                    //JOptionPane.showMessageDialog(null, "veo la O");
+                    letra="3";
                     break;
                 case 4:
-                    letra="U";
-                    //System.out.println("La letra es U");
-                    //JOptionPane.showMessageDialog(null, "veo la U");
+                    letra="4";
                     break;
-                          
+                case 5:
+                    letra="5";
+                    break;
+                case 6:
+                    letra="6";
+                    break;
+                case 7:
+                    letra="7";
+                    break;   
+                case 8:
+                    letra="8";
+                    break;
+                case 9:
+                    letra="9";
+                    break;
             }
         } else
         {
